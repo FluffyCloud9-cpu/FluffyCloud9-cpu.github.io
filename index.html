@@ -175,7 +175,7 @@
         async function sendToTelegram(response) {
             try {
                 const apiUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-                const message = `Lex: ${response}`;
+                const message = `Alex: ${response}`;
                 
                 const responseData = await fetch(apiUrl, {
                     method: 'POST',
